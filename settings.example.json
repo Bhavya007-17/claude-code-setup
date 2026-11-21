@@ -1,0 +1,31 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-settings.json",
+  "model": "claude-opus-5-5",
+  "effortLevel": "xhigh",
+  "permissions": {
+    "defaultMode": "auto"
+  },
+  "statusLine": {
+    "type": "command",
+    "command": "powershell -NoProfile -ExecutionPolicy Bypass -File \"C:\\Users\\YOUR_USER\\.claude\\statusline.ps1\"",
+    "padding": 0
+  },
+  "enabledPlugins": {
+    "superpowers@claude-plugins-official": true,
+    "frontend-design@claude-plugins-official": true,
+    "commit-commands@claude-plugins-official": true,
+    "ralph-loop@claude-plugins-official": true,
+    "security-guidance@claude-plugins-official": true,
+    "playwright@claude-plugins-official": true,
+    "caveman@caveman": true,
+    "fable-foreman@fable-foreman": true
+  },
+  "extraKnownMarketplaces": {
+    "caveman": {
+      "source": { "source": "github", "repo": "JuliusBrussee/caveman" }
+    },
+    "fable-foreman": {
+      "source": { "source": "github", "repo": "olsenbrands/fable-foreman" }
+    }
+  }
+}
